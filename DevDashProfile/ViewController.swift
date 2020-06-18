@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var devProfLogo: UIImageView!
+    @IBOutlet weak var CDButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        devProfLogo.layer.cornerRadius = 10
+        CDButton.layer.cornerRadius = 10
     }
 
 
